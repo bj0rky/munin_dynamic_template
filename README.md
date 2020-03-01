@@ -29,3 +29,11 @@ staticdir /etc/munin/munin_dynamic_template/munin2/static
 ```
 or adjust to suite wherever you have cloned the files. Wait 5 minutes and your
 munin should look better :)
+
+###### for the impatient:
+
+Generate new static files:
+```
+$ sudo -u munin /usr/share/munin/munin-html
+```
+
